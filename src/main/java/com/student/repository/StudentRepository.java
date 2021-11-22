@@ -9,3 +9,4 @@ import com.student.entity.Student;
 public interface StudentRepository extends JpaRepository<Student, Integer> {
 
 }
+  
