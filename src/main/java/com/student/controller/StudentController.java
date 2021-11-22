@@ -69,7 +69,7 @@ public class StudentController {
 		model.addAttribute("student", getStudentById);
 		
 		return "edit-student";
-	}
+	}  
 	
 	@PostMapping("/edit/{id}")
 	public String deleStudent(@PathVariable("id") int id,@ModelAttribute("student") Student student,  Model model) {
